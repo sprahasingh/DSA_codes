@@ -21,9 +21,6 @@ string reverseString(string &str)
             start++;
         }
     }
-    for (int i = 0; i < words.size(); i++)
-    {
-    }
     for (int i = words.size() - 1; i > 0; i--)
     {
         reversed_words += (words[i] + ' ');
